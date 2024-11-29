@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D., Geomatics Engineer, GIS Specialist
 
 profile:
   align: right
   image: prof_pic_arctic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Somewhere in Ankara, Turkey</p>
+    <p>2017 in Ankara, Turkey</p>
 
 
 news: true # includes a list of news items
