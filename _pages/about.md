@@ -11,12 +11,13 @@ profile:
   more_info: >
     <p>2017 in Ankara, Turkey</p>
 
-
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is Eray Sevgen. I am a Geomatics Engineer, GIS specialist and researcher. My current interests are geospatial data management and machine and deep learning for 3D point clouds. I am working for a public company in the GIS department in Ankara, Turkey. 
+Welcome to my personal page! I am a **Geomatics Engineer**, **GIS specialist**, and **researcher** based in **Ankara, Turkey**. Currently, I work in the GIS department of a public organization, focusing on **geospatial data management** and **GIS applications**.
 
-I obtained my degrees from several universities from Turkey and USA. I had a Ph.D. in Geomatics Engineering from Hacettepe University, Ankara. In my Ph.D. I studied 3D point cloud classification with machine learning focusing on deep learning. I earned a M.Sc. in Civil Engineering from Purdue University, West Lafayette, USA studing road extraction from GPS trajectories. I had a B.Sc. in Geomatics Engineering from Yıldız Technical University, Istanbul.
+I hold degrees from **institutions** in Turkey and the USA. I earned my **Ph.D. in Geomatics Engineering** from Hacettepe University in Ankara, where my research centered on **3D point cloud classification using machine and deep learning techniques**. Prior to that, I completed an **M.Sc. in Civil Engineering** at **Purdue University**, West Lafayette, USA, with a focus on **road extraction from GPS trajectories**. My academic journey began with a **B.Sc. in Geomatics Engineering** from **Yıldız Technical University**, Istanbul.
+
+_The views and thoughts expressed on this page are solely my own and do not reflect those of my employer or any affiliated organizations._
