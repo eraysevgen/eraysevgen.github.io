@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Eray
-middle_name: 
+middle_name:
 last_name: Sevgen
 email: eraysevgen@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -112,7 +112,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Please use my email to contact with me. 
+  Please use my email to contact with me.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -196,7 +196,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:title/
 
 announcements:
