@@ -6,7 +6,7 @@ subtitle: Ph.D., Geomatics Engineer, GIS Specialist
 
 profile:
   align: right
-  image: prof_pic_arctic.jpg
+  image: me_arctic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>2017 in Ankara, Turkey</p>
