@@ -1,7 +1,7 @@
 ---
 ---
 
-@Article{rs15153787,
+@Article{Sevgen_Abdikan_2023_Mobil,
 AUTHOR = {Sevgen, Eray and Abdikan, Saygin},
 TITLE = {Classification of Large-Scale Mobile Laser Scanning Data in Urban Area with LightGBM},
 JOURNAL = {Remote Sensing},
@@ -17,19 +17,20 @@ bibtex_show={true}
 }
 
 
-@Article{isprs-archives-XLVIII-M-1-2023-587-2023,
-AUTHOR = {Sevgen, E. and Abdikan, S.},
-TITLE = {POINT-WISE CLASSIFICATION OF HIGH-DENSITY UAV-LIDAR DATA USING GRADIENT BOOSTING MACHINES},
-JOURNAL = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
-VOLUME = {XLVIII-M-1-2023},
-YEAR = {2023},
-PAGES = {587--593},
-URL = {https://isprs-archives.copernicus.org/articles/XLVIII-M-1-2023/587/2023/},
-DOI = {10.5194/isprs-archives-XLVIII-M-1-2023-587-2023},
-bibtex_show={true}
+@article{Sevgen_Abdikan_2023_Pointwise,
+  author      = {Sevgen, E. and Abdikan, S.},
+  title       = {POINT-WISE CLASSIFICATION OF HIGH-DENSITY UAV-LIDAR DATA USING GRADIENT BOOSTING MACHINES},
+  journal     = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  volume      = {XLVIII-M-1-2023},
+  year        = {2023},
+  pages       = {587--593},
+  url         = {https://isprs-archives.copernicus.org/articles/XLVIII-M-1-2023/587/2023/},
+  doi         = {10.5194/isprs-archives-XLVIII-M-1-2023-587-2023},
+  bibtex_show = {true},
+  abstract    = {Point-wise classification of 3D point clouds is a challenging task in point cloud processing, whereas, in particular, its application to high-density point clouds needs special attention because a large number of point clouds affect computational efficiency negatively. Although deep learning based models have been gaining popularity in recent years and have reached state-of-the-art results in accuracy for point-wise classification, their requirements of the high number of training samples and computational resources make those models inefficient for high-density 3D point clouds. However, traditional machine learning classifiers require less training samples, so they are capable of reducing computational requirements, even considering the latest machine learning classifiers, particularly in ensemble learning of gradient boosting machines, the results can compete with deep learning models. In this study, we are studying the point-wise classification of high-density UAV LiDAR data and focusing on efficient feature extraction and a recent state-of-the-art gradient boosting machine learning classifier, LightGBM. Our proposed framework includes the following steps: at first, we are using point cloud sampling for creating sub-sampled point clouds, then we are calculating the features based on those scales implemented on GPU. Finally, we are using the LightGBM classifier for training and testing. For the evaluation of our framework, we used a publicly available benchmark dataset, Hessigheim 3D. According to the results, we achieved an overall accuracy of 87.59\% and an average F1 score of 75.92\%. Our framework has promising results and scores closer to deep learning models. However, more distinctive features are required to obtain more accurate results.}
 }
 
-@inproceedings{kocaman2019photogrammetric,
+@inproceedings{Kocaman_vd_2019_Photogrammetric,
   title={A Photogrammetric Surface Comparison for a Dam Reservoir in a Landslide—Prone Area in Eastern Anatolia, Turkey},
   author={Kocaman, Sultan and Sevgen, Eray and Gokceoglu, Candan},
   booktitle={Recent Advances in Geo-Environmental Engineering, Geomechanics and Geotechnics, and Geohazards: Proceedings of the 1st Springer Conference of the Arabian Journal of Geosciences (CAJG-1), Tunisia 2018},
@@ -39,7 +40,7 @@ bibtex_show={true}
   bibtex_show = {true}
 }
 
-@mastersthesis{sevgen2013road,
+@mastersthesis{Sevgen_2013_Road,
   title={Road extraction from GPS trajectories},
   author={Sevgen, Eray},
   year={2013},
@@ -47,7 +48,7 @@ bibtex_show={true}
   bibtex_show = {true}
 }
 
-@Article{s19183940,
+@Article{Sevgen_et_al_2019_Landslide,
 AUTHOR = {Sevgen, Eray and Kocaman, Sultan and Nefeslioglu, Hakan A. and Gokceoglu, Candan},
 TITLE = {A Novel Performance Assessment Approach Using Photogrammetric Techniques for Landslide Susceptibility Mapping with Logistic Regression, ANN and Random Forest},
 JOURNAL = {Sensors},
@@ -63,11 +64,22 @@ DOI = {10.3390/s19183940},
 bibtex_show = {true}
 }
 
-@Conference{sevgenelektrik,
+@Conference{Sevgen_2016_Elektrik,
   title={ELEKTR{\.I}K NAK{\.I}L HATTININ HAVA L{\.I}DAR VER{\.I}LER{\.I}NDEN {\c{C}}IKARILMASI},
   author={Sevgen, Eray and Canaz Sevgen, Sibel},
   year = {2016},
   booktitle  = {VI. UZAL-CBS Sempozyumu},
   country = {Turkey},
   bibtex_show = {true}
+}
+
+@inproceedings{Sevgen_2026_Mobil,
+author = {Sevgen, Eray},
+title = {Mobil Lidar Nokta Bulutlar{\i}n{\i}n Denetimsiz Alan Adaptasyonu ile S{\i}n{\i}fland{\i}r{\i}lmas{\i}},
+booktitle = {X. Uzaktan Alg{\i}lama ve Co{\u{g}}rafi Bilgi Sistemleri Sempozyumu},
+year = {2026},
+address = {Trabzon, T{\"u}rkiye},
+month = {15--17 } # oct,
+bibtex_show = {true},
+abstract = {Derin {\"o}{\u{g}}renme y{\"o}ntemleri 3B nokta bulutlar{\i}n{\i}n s{\i}n{\i}fland{\i}r{\i}lmas{\i}nda son y{\i}llarda elde etti{\u{g}}i ba{\c{s}}ar{\i}l{\i} sonu{\c{c}}lar ile dikkat {\c{c}}ekmektedir. Bununla birlikte, derin {\"o}{\u{g}}renme y{\"o}ntemlerinin etkin sonu{\c{c}}lar vermesi b{\"u}y{\"u}k miktarda etiketli e{\u{g}}itim verisine ba{\u{g}}l{\i}d{\i}r. Ancak 3B nokta bulutlar{\i}n{\i}n karma{\c{s}}{\i}k yap{\i}s{\i} ve nokta d{\"u}zeyinde etiketleme i{\c{s}}leminin zaman al{\i}c{\i} ve maliyetli olmas{\i}, {\"o}zellikle yeni veri setleri i{\c{c}}in yeterli miktarda veri olu{\c{s}}turulmas{\i}n{\i} g{\"u}{\c{c}}le{\c{s}}tirmektedir. Bu nedenle mevcut etiketli veri setlerinden {\"o}{\u{g}}renilen bilginin yeni ve etiketsiz veri setlerine aktar{\i}lmas{\i} {\"o}nemli bir ara{\c{s}}t{\i}rma konusu haline gelmi{\c{s}}tir. Bu t{\"u}r bilgi aktar{\i}m{\i}ndaki en temel g{\"u}{\c{c}}l{\"u}klerden biri, kaynak ve hedef veri da{\u{g}}{\i}l{\i}mlar{\i} aras{\i}daki da{\u{g}}{\i}l{\i}m fark{\i}d{\i}r. {\"O}zellikle farkl{\i} sens{\"o}rler, platformlar ve veri toplama ko{\c{s}}ullar{\i} ile elde edilen 3B nokta bulutlar{\i} aras{\i}nda geometrik yap{\i}, nokta yo{\u{g}}unlu{\u{g}}u ve verilerin da{\u{g}}{\i}l{\i}m{\i} a{\c{c}}{\i}s{\i}ndan farklar bulunmaktad{\i}r. Alan kaymas{\i} olarak tan{\i}mlanan bu durum, kaynak veri {\"u}zerinde e{\u{g}}itilen bir derin {\"o}{\u{g}}renme modelinin hedef veri {\"u}zerindeki genelleme ba{\c{s}}ar{\i}s{\i}n{\i} {\"o}nemli {\"o}l{\c{c}}{\"u}de azaltabilmektedir. Denetimsiz alan uyarlamas{\i}, etiketli bir kaynak alanda {\"o}{\u{g}}renilen bilginin, etiket bilgisi bulunmayan hedef alana aktar{\i}lmas{\i}n{\i} ama{\c{c}}lamaktad{\i}r. B{\"o}ylece, hem alan kaymas{\i}n{\i}n etkilerini azalt{\i}larak derin {\"o}{\u{g}}renme modelinin genelleme kapasitesi artacak hem de hedef alanda yeni etiketli veri olu{\c{s}}turma gereksinimini s{\i}n{\i}rlanm{\i}{\c{s}} olacakt{\i}r. Bu {\c{c}}al{\i}{\c{s}}mada, etiketsiz mobil LiDAR nokta bulutlar{\i}, etiketli hava LiDAR nokta bulutlar{\i}ndan {\"o}{\u{g}}renilen bilgi kullan{\i}larak s{\i}n{\i}fland{\i}r{\i}lmas{\i} ve iki veri alan{\i} aras{\i}ndaki bilgi aktar{\i}m{\i}n{\i}n denetimsiz alan adaptasyonu ile incelenmesi ama{\c{c}}lanm{\i}{\c{s}}t{\i}r. Elde edilen sonu{\c{c}}lara g{\"o}re, alan adaptasyonu sonras{\i}nda do{\u{g}}ruluk yakla{\c{s}}{\i}k 2 puan artm{\i}{\c{s}}, kesi{\c{s}}im birle{\c{s}}im oran{\i}nda ise yakla{\c{s}}{\i}k 6 puanl{\i}k bir art{\i}{\c{s}} meydana gelmi{\c{s}}tir. Bununla birlikte, performanstaki iyile{\c{s}}menin daha {\c{c}}ok nokta say{\i}lar{\i} y{\"u}ksek bask{\i}n s{\i}n{\i}flarda ger{\c{c}}ekle{\c{s}}ti{\u{g}}i, az say{\i}da {\"o}rne{\u{g}}e ait az{\i}nl{\i}k s{\i}n{\i}flar{\i}nda ise bir geli{\c{s}}me sa{\u{g}}lanmad{\i}{\u{g}}{\i} g{\"o}r{\"u}lm{\"u}{\c{s}}t{\"u}r. Bu sonu{\c{c}}lar, hava LiDAR verilerinden {\"o}{\u{g}}renilen bilginin mobil LiDAR verilerine aktar{\i}lmas{\i}nda denetimsiz alan uyarlamas{\i}n{\i}n uygulanabilirli{\u{g}}ine i{\c{s}}aret etmekte ve farkl{\i} sens{\"o}r ve platformlardan elde edilen 3B nokta bulutlar{\i} aras{\i}ndaki alan farkl{\i}l{\i}klar{\i}n{\i}n giderilmesine y{\"o}nelik gelecekteki {\c{c}}al{\i}{\c{s}}malar i{\c{c}}in bir temel olu{\c{s}}turmaktad{\i}r.}
 }
